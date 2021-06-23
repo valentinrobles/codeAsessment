@@ -1,0 +1,11 @@
+{
+    "insuranceApiRest": {
+        "clientsUrl": "https://dare-nodejs-assessment.herokuapp.com/api/clients",
+        "policiesUrl": "https://dare-nodejs-assessment.herokuapp.com/api/policies",
+        "loginUrl": "https://dare-nodejs-assessment.herokuapp.com/api/login",
+        "client_id": "dare",
+        "client_secret": "s3cr3t"
+    },
+    "port": 3000,
+    "killTimeout":100
+}
