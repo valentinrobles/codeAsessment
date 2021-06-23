@@ -4,7 +4,9 @@
   "description": "Node Js Code Asessment",
   "main": "app.js",
   "scripts": {
-    "test": "npm run test"
+    "start": "node src/server/app.js",
+    "debug-start": "nodemon ./src/server/app.js",
+    "test": "mocha --recursive ./test"
   },
   "repository": {
     "type": "git",
